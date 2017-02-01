@@ -1,0 +1,70 @@
+header{
+  width: 100%;
+  background: #292422;
+  padding: 20px 0;
+  position: fixed;
+}
+.banner{
+  width: 100%;
+  height: 300px;
+  background-image: url("../image/baner.jpg");
+  background-size:cover;
+  background-position: center;
+}
+.titulo{
+  position: relative;
+  top:150px;
+}
+.cta{
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  transition-duration: 1s;
+}
+
+.cta:hover{
+  background: black;
+  color: white;
+}
+.logo{
+  position: static;
+  width: 200px;
+}
+.logoRedes{
+  height: 30px;
+}
+.contenido{
+  padding: 20px 0;
+}
+.formulario{
+  text-align: center;
+}
+.line{
+  border-top:dashed #eee;
+  margin:50px 0 50px 0;
+}
+.subtitle{
+  position: absolute;
+  left: 50px;
+  top: 200px;
+}
+.right{
+  float: right;
+}
+iframe{
+  border:0;
+  width:100%;
+}
+h2,h4{
+  text-align: center
+}
+p{
+  text-align: justify;
+}
+footer{
+  text-align: center;
+}
